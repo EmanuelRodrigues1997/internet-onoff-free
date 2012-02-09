@@ -60,7 +60,6 @@ package InternetOnOff.vv.android.development.com;
 	    private static final String DB_LIKE_PREFIX = PREFIX + "%";
 	    private static final String DB_LIKE_TYPE_PREFIX = "%" +PREFIX + "%";
 	    private Handler myHandler = new Handler();
-	  //  Handler progressHandler = new Handler();
 	    ProgressDialog dialog;
 	    
 
@@ -97,9 +96,7 @@ package InternetOnOff.vv.android.development.com;
 	        	 StavInternetu.setTextColor(Color.RED);
 	         };
 	         
-	   //      imageButton1.setImageResource(R.drawable.buttongreen200);
-	         
-	        //checkbox1.setChecked(isOnline());
+
 	        if ( checkbox1.isChecked() == true ) {
 	        	mMmsTarget = STATE_ON;
 	        }
@@ -108,74 +105,7 @@ package InternetOnOff.vv.android.development.com;
 	        };
 	        
 	        
-	 
 
-	        
-	 /*       toggleButton1.setOnClickListener(new OnClickListener() {
-	            public void onClick(View v) {
-	            	
-	            	if ( checkbox1.isChecked() == true ) {
-	                	mMmsTarget = STATE_ON;
-	                }
-	                else {
-	                	mMmsTarget = STATE_OFF;
-	                };
-	                
-	             
-	      */         
-	                
-	                
-	                
-	            	
-	            	
-	                // Perform action on clicks
-	              //  if (toggleButton1.isChecked()) {
-	    ///        	if (isOnline()) {	
-	             //       Toast.makeText(APN.this, check, Toast.LENGTH_SHORT).show();
-	             //       isOnline();
-	             //       printListApn(selectApnInfo(null, null));
-	     ///               disableAllInDb();
-	                    
-	                    
-	     ///               myHandler.postDelayed(mMyRunnableVyp, 5000);
-	                    
-	            /*        if (isOnline()) {
-	                    	Toast.makeText(APN.this, "nepodarilo se vypnout", Toast.LENGTH_SHORT).show();
-	                    	toggleButton1.setChecked(true);
-	                    }
-	              */
-	                    
-	                    
-	                    
-	              //      printListApn(selectApnInfo(null, null));
-	     ///           } else {
-	         
-	                	
-	           //     	check = "nezaskrtnuty";
-	           //         Toast.makeText(APN.this, check, Toast.LENGTH_SHORT).show();
-	           //         isOnline();
-	           //     	printListApn(selectApnInfo(null, null));
-	   ///             	enableAllInDb();
-	                
-	                	
-	  ///              	myHandler.postDelayed(mMyRunnableZap, 8000);
-	                	
-	             /*   	if (!isOnline()) {
-	                    	Toast.makeText(APN.this, "nepodarilo se zapnout", Toast.LENGTH_SHORT).show();
-	                    	toggleButton1.setChecked(false);
-	                    } */
-	                	
-	                	
-	                	
-	                	
-	           //     	printListApn(selectApnInfo(null, null));
-	 ///               }
-	 ///           }
-	 ///       });
-	         
-	     //   toggleButton1.setChecked(isOnline());
-	    //     String pokusny = selectedApn();
-	     //    Log.v(TAG, "pokusny=  " + pokusny);
 	        
 	        
 	        imageButton1.setOnClickListener(new OnClickListener() {
